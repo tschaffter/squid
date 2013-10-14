@@ -1,0 +1,8 @@
+README
+======
+
+sQuid is an open-source C++/Qt software application designed to observe environments using FireWire cameras (IEEE 1394), while interacting with these environments through a port interface (e.g. parallel port/IEEE 1284). We envision that this application will be very useful in scientific research as well as robotics.
+
+In our experiments, we control a system of LEDs and valves while multiple cameras capture visual information from the environment. Specifically, fruit flies (Drosophila melanogaster) are placed within a transparent chamber to visualize their behavior (Ramdya et al., 2012). While capturing images from two cameras, we simultaneously control a series of LEDs to excite fluorescence proteins, and generate gas flow by controlling a series of valves.
+
+Installation guide and user manual are available on http://tschaffter.ch/projects/squid.

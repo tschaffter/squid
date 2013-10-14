@@ -1,0 +1,72 @@
+#########################################################################
+# sQuid settings file
+# Project website: http://tschaffter.ch/projects/squid/
+#########################################################################
+
+# Boolean values: 0 => false, 1 => true
+
+
+# ====================================================================================
+# GENERAL
+
+# Working directory (default: USER_HOME if empty).
+# Example: /home/tschaffter
+workingDirectory = ""
+# List of comma-separated email addresses.
+emailAddresses = ""
+
+# ====================================================================================
+# CAMERAS
+
+# Dc1394 mode (a=FireWire400, b=FireWire800, default: a).
+dc1394 = "a"
+# Guid of the camera to select at startup (if detected).
+cameraGuid = "a4701120a40f3"
+# Configurations of all the cameras detected during the last session.
+cameraConfigurations = "a4701120a40f3 DC1394_VIDEO_MODE_1280x960_MONO8 DC1394_FRAMERATE_15 0 2000 16 0 0 0 0 0"
+# Trigger period in milliseconds.
+triggerPeriod = 50
+
+# ====================================================================================
+# PORT PLAYER
+
+# Absolute path to the player settings file.
+# Example: /home/tschaffter/squid/settings_player.txt
+playerSettingsFilename = ""
+
+# ====================================================================================
+# EXPERIMENT
+
+# Experiment name.
+experimentName = "MyExperiment"
+# Experiment duration mode (0=MANUAL, 1=FIXED, 2=PLAYER). In FIXED mode, the
+# experiment will stop after "experimentDuration" minutes (see next parameter).
+experimentDurationMode = 1
+# Experiment duration in minutes ("experimentDurationMode" must be set to FIXED).
+experimentDuration = 1
+# Send experiment report by email (1=yes, 0=no).
+experimentEmail = 1
+# Subject prefix of the emails.
+experimentEmailSubjectPrefix = "sQuid message"
+# Output format (0=IMAGE_PGM, 1=IMAGE_TIFF).
+outputFormat = 1
+
+# ====================================================================================
+# LOGGING
+
+# Enable stderr logging (1=on, 0=off).
+stderrLogging = 1
+# Stderr logging severity (0=INFO, 1=WARNING, 2=ERROR, 3=CRITICAL).
+stderrLoggingSeverity = 0
+# Enable file logging (1=on, 0=off).
+fileLogging = 0
+# File logging severity (0=INFO, 1=WARNING, 2=ERROR, 3=CRITICAL).
+fileLoggingSeverity = 0
+# Directory where log files are saved (default: USER_HOME if empty).
+fileLoggingDirectory = "/home/tschaffter"
+# String prefix for logging filenames.
+fileLoggingPrefix = "squid_log_"
+# Enable email logging (1=on, 0=off).
+emailLogging = 0
+# Email logging severity (0=INFO, 1=WARNING, 2=ERROR, 3=CRITICAL).
+emailLoggingSeverity = 2

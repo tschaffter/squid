@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="lis_logo">resources/lis_logo.png</file>
+        <file alias="fileopen">resources/fileopen_crystal.png</file>
+        <file alias="filesave">resources/filesave_crystal.png</file>
+        <file alias="filesaveas">resources/filesaveas_crystal.png</file>
+        <file alias="reload">resources/reload_crystal.png</file>
+        <file alias="redetect_camera">resources/redetect_crystal.png</file>
+        <file alias="add">resources/add_crystal.png</file>
+        <file alias="remove">resources/remove_crystal.png</file>
+        <file alias="camera_play">resources/player_play_crystal.png</file>
+        <file alias="camera_stop">resources/player_stop_crystal.png</file>
+        <file alias="player_pause">resources/player_pause_crystal.png</file>
+        <file alias="run">resources/run_crystal.png</file>
+        <file alias="camera">resources/camera_crystal.png</file>
+        <file alias="lis_logo_w100">resources/lis_logo_w100.png</file>
+        <file alias="display">resources/display.png</file>
+        <file alias="browse">resources/file-manager.png</file>
+        <file alias="exit">resources/shutdown_crystal.png</file>
+        <file alias="header">resources/header.png</file>
+        <file alias="ico">resources/squid.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,15 @@
+#########################################################################
+# QPortPlayer settings file
+# QPortPlayer is part of sQuid: http://tschaffter.ch/projects/squid/
+#########################################################################
+
+# Boolean values: 0 => false, 1 => true
+
+# Absolute path to the port device (e.g. \"/dev/parport0\")
+portDevice = "/dev/parport0"
+# List of pins formatted as "pin1_name pin1_port pin1_index pin2_name ... pinN_index" (no whitespace in the elements)
+pins = "CO2_L 0x327 3 CO2_R 0x327 4 Air_L 0x327 5 Air_R 0x327 6 green 0x327 0 blue 0x327 1 "
+# Semicolon-separated list of states (playlist)
+states = "1 0 1 1 1 0 10;1 0 0 1 0 1 5;1 1 1 1 1 0 10;0 0 1 1 0 1 5"
+# Duration unit (0=min, 1=sec, 2=msec)
+durationUnit = 1
